@@ -10,14 +10,14 @@
  */
 function calculate () {
   // input
-  let test1 = parseInt(document.getElementById('test1').value);
-  let test2 = parseInt(document.getElementById('test2').value);
+  let test1 = parseFloat(document.getElementById('test1').value);
+  let test2 = parseFloat(document.getElementById('test2').value);
 
   // process
   let average = test1 * test2 /2;
 
   // output
-  document.getElementById('average').innerHTML = 'Average is: ' + average + '%.'
+  document.getElementById('average').innerHTML = 'Average is: ' + average + '%.
 }
 
 /**
@@ -25,8 +25,8 @@ function calculate () {
  */
 function calculate () {
   // input
-  let test1 = parseInt(document.getElementById('test1').value);
-  let test2 = parseInt(document.getElementById('test2').value);
+  let test1 = parseFloat(document.getElementById('test1').value);
+  let test2 = parseFloat(document.getElementById('test2').value);
 
   // process
   let range = test1 - test2;
