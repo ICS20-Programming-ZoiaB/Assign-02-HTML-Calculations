@@ -32,5 +32,6 @@ function calculate () {
   let range = test1 - test2;
 
   // output
-  document.getElementById('range').innerHTML = 'Range is: ' + range + '.'
+  document.getElementById('range').innerHTML = 'Range is: ' + Math.abs(range) + '.'
 }
+
