@@ -19,3 +19,18 @@ function calculate () {
   // output
   document.getElementById('average').innerHTML = 'Average is: ' + average + '%.'
 }
+
+/**
+ * This function calculates the range
+ */
+function calculate () {
+  // input
+  let test1 = parseInt(document.getElementById('test1').value);
+  let test2 = parseInt(document.getElementById('test2').value);
+
+  // process
+  let range = test1 - test2;
+
+  // output
+  document.getElementById('range').innerHTML = 'Range is: ' + range + '.'
+}
