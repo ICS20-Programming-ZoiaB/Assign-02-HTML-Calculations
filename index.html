@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/android-chrome-512x512.png">
     <link rel="manifest" href="./fav_index/android-chrome-512x512.png">
 
-    <!-- Stylesheet -->
+    <!-- Stylesheet and MDL theme-->
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- Title -->
@@ -27,16 +27,17 @@
     <script src="./js/script.js"></script>
     
     <!-- Main writing -->
+    <center>
     <h1>Calculate Your Average and Range, with JavaScript</h1>
     <p>
-      <h3>Please enter the following:</h3>
+    <h3>Please enter the following:</h3>
 
       <!-- User input -->
       <form action="javascript:calculate()">
         <label for="test1">Test 1 Score %</label>
-        <input type="number" id="test1" placeholder="Test 1 Score..."><br><br>
+        <input type="float" id="test1" placeholder="Test 1 Score..."><br><br>
         <label for="test2">Test 2 Score %</label>
-        <input type="number" id="test2" placeholder="Test 2 Score..."><br><br>
+        <input type="float" id="test2" placeholder="Test 2 Score..."><br><br>
         <input type="submit" value="Enter">
       </form>
     </p>
@@ -49,5 +50,19 @@
     </div>
     <div id="range">
     </div>
+
+    <!-- Text -->
+    <p>Are you happy with your average?</p>
+    
+    <!-- Google's MDL radio button -->
+    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+      <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+      <span class="mdl-radio__label">Yes</span>
+    </label>
+    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+      <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+      <span class="mdl-radio__label">No</span>
+    </label>
+    </center>
   </body>
 </html>
